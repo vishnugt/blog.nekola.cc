@@ -1,14 +1,22 @@
 #  The contact options.
 
-- type: github
-  icon: "fab fa-github"
+# - type: github
+#   icon: "fab fa-github"
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+- type: mdl
+  icon: "fa-solid fa-heart"
+  url: "https://mydramalist.com/profile/nekola"
+
+- type: mal
+  icon: "fa-solid fa-star"
+  url: "https://anilist.co/user/nekola/animelist"
+
+- type: discord
+  icon: "fa-brands fa-discord"
+  url: "https://discord.com/channels/@me/865574183319896096"
 
 - type: rss
   icon: "fas fa-rss"
