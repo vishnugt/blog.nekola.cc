@@ -7,7 +7,7 @@ tags: [initial-thoughts, luma-island, reviews, games]
 image: /assets/images/2024-11-26-luma-island/2024-11-26-luma-island-2.png
 ---
 
-Stepping into the world of Luma Island feels like wrapping yourself in a warm blanket while still being encouraged to stay on your toes. This life-simulation game has quickly become one of my go-to escapes, offering a balance of calming gameplay and just enough engagement to keep things interesting. After playing for around 20 in-game days (and restarting a couple of times), here are my initial impressions.
+Stepping into the world of Luma Island feels like wrapping yourself in a warm blanket while still being encouraged to stay on your toes. This farming-simulation game has quickly become one of my go-to escapes, offering a balance of calming gameplay and just enough engagement to keep things interesting. After playing for around 20 in-game days (and restarting a couple of times), here are my initial impressions.
 
 ## A Cozy Yet Engaging Experience
 
