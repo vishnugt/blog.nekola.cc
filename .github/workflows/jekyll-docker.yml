@@ -40,7 +40,6 @@ jobs:
           publish_branch: gh-pages
           
       - name: Deploy to _sites folder
-      - name: Commit files to _site
         run: |
           git config --local user.name "vishnugt"
           git add ./_site
