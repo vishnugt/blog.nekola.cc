@@ -29,8 +29,10 @@ jobs:
           bundle install
       # Step 4: Build the Jekyll site
       - name: Build Jekyll site
+        env:
+          JEKYLL_ENV: production
         run: |
-          JEKYLL_ENV="production" bundle exec jekyll build --source . --destination _site
+          bundle exec jekyll build --source . --destination _site
       # Step 5: Deploy to gh-pages branch
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
