@@ -30,11 +30,23 @@ jobs:
       # Step 4: Build the Jekyll site
       - name: Build Jekyll site
         run: |
-          bundle exec jekyll build --source . --destination _output
+          bundle exec jekyll build --source . --destination _site
       # Step 5: Deploy to gh-pages branch
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _output
+          publish_dir: _site
           publish_branch: gh-pages
+          
+      - name: Deploy to _sites folder
+      - name: Commit files to _site
+        run: |
+          git config --local user.name "vishnugt"
+          git add ./_site
+          git commit -m "Updating the _site via Github Actions"
+      - name: Push changes # push the output folder to your repo
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
